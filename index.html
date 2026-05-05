@@ -25,89 +25,376 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </head>
 
+<br>
+<br>
+<br>
+<br>
+
+
 <body>
-<br>
-<br>
-<br>
-<br>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgb(255, 255, 255) ;">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <nav id="navbar" class="navbar navabar-expand-md bg-dark navbar-light fixed-top">
-        <a href="#container1"> <img id="logo" class="navbar-brand rounded-circle" src ="logo.png" alt="" width="50px" height="50px"></a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#carousel01">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Anime
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#onepieceDIV">One Piece</a>
+          <!-- <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a> -->
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#fooddiv">food</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#sketchdiv">sketching</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link disabled" href="#">drawing</a>
+      </li> -->
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    <!-- <nav id="navbar" class="navbar navabar-expand-md navbar-light fixed-top">
+        <a href="#container1"> <img id="logo" class="navbar-brand rounded-circle" src ="logo.png" alt="" width="200px" height="200px"></a>
          <ul class="navbar-nav ml-auto">
-            <li class="nav-item "> <a class="nav-link" href="#container1">container</a></li>
+            <li class="nav-item "> <a class="nav-link" href="#container1">Anime</a></li>
 
-            <li class="nav-item "> <a class="nav-link" href="#container2">container1</a></li>
+            <li class="nav-item "> <a class="nav-link" href="#container2">Food</a></li>
          </ul>
-    </nav>
+    </nav> -->
+
+    <br>
+    <br>
+
+    <div class="container-fluid text-dark text-center">
+        <h1 class="text-light animate__animated animate__bounceIn">My Porfolio</h1>
+        <strong class="text-light">Get to know about me</strong>
+<br>
+<br>
+
+<h3 class="text-light">i like anime a lot</h3>
+
+    <div class="row" data-toggle="modal" data-target="#mymodal01">
 
 
+        <div class="col-sm-3">
+            <img  class="a1 animate__animated animate__fadeInDownBig" data-target="#mycarousel2" data-slide-to="0" src="https://www.dexerto.fr/cdn-image/wp-content/uploads/sites/2/2024/12/02/isagi-blue-lock-saison-2.jpg?width=1200&quality=60&format=auto" alt="" width="100%">
+        </div>
+
+        <div class="col-sm-3">
+            <img class=" a2 animate__animated animate__fadeInDownBig" data-target="#mycarousel2" data-slide-to="1" src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/hcjh5hnawai76a6-1.jpg?w=1200&h=628&fit=crop" alt="" width="100%">
+        </div>
+
+        <div class="col-sm-3">
+            <img class="a3 animate__animated animate__fadeInDownBig" data-target="#mycarousel2" data-slide-to="2" src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/02/Thorfinn-Warrior.jpg?w=1200&h=675&fit=crop" alt="" width="100%">
+        </div>
+
+        <div class="col-sm-3">
+            <img class="a4 animate__animated animate__fadeInDownBig" data-target="#mycarousel2" data-slide-to="3" src="https://miro.medium.com/1*pw8VuOvq61h_bYcPo0_oxQ.png" alt="" width="100%">
+        </div>
+    </div>
+<br>
+
+    <div id="carousel01" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/1c7673199fafc72304080c0811a5ff1b7bb18bb59631ec51dca09853e2344629.jpg" alt="" width="100%" height="500">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://www.impericon.com/cdn/shop/articles/20250901_jjkS3_poster_2_f4ddabc9-9e02-43e6-9b16-ec662e8421a5.jpg?v=1756709515" alt="" width="100%" height="500">
+            </div>
+                
+            <div class="carousel-item">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/ebdb57d202a95cb0e259106840f031e1b15d65c6bc97c26650c3f44587ae097d.jpg" alt="" width="100%" height="500">
+            </div>
+             
+            <div class="carousel-item">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/a72dcec6d4fb54bb50c1f4880757c6df1c6258036e014fe03480fd0f127ad68d._BR-6_AC_SX720_FMjpg_.jpg" alt="" width="100%" height="500">
+            </div>
+        </div>
+
+        <a href="#carousel01" class="carousel-control-prev" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+
+  <a href="#carousel01" class="carousel-control-next" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+  <ul class="carousel-indicators">
+        <li  class="active" data-target="#carousel01" data-slide-to="0">
+            
+        </li>
+
+        <li data-target="#carousel01" data-slide-to="1">
+        </li>
+
+        <li data-target="#carousel01" data-slide-to="2">
+        </li>
+
+        <li data-target="#carousel01" data-slide-to="3">
+        </li>
+  </ul>
+    </div>
+
+    <div class="modal" id="mymodal01"> 
+    <div class="modal-dialog">
+        <div class="modal-content bg-transperent">
+            
+            <div class="carousel slide" data-ride="carousel" id="mycarousel2">
+                <div class="carousel-item active">
+                    <img src="https://www.dexerto.fr/cdn-image/wp-content/uploads/sites/2/2024/12/02/isagi-blue-lock-saison-2.jpg?width=1200&quality=60&format=auto" alt="" width="100%">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/hcjh5hnawai76a6-1.jpg?w=1200&h=628&fit=crop" alt="" width="100%">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/02/Thorfinn-Warrior.jpg?w=1200&h=675&fit=crop" alt="" width="100%">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://miro.medium.com/1*pw8VuOvq61h_bYcPo0_oxQ.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
+<br>
+<br>
 
-
-
-
-    <div class="container-fluid bg-dark text-light text-center">
+    <!-- <div class="container-fluid text-light text-center">
         <h1>My porfolio</h1>
-        <h2></h2>
+        <h2></h2> -->
 
-        <img width="800px" class="margin"
+        <img id="onepieceDIV" width="800px" class="margin"
             src="https://wallpapers-clan.com/wp-content/uploads/2025/06/one-piece-luffy-anime-hero-desktop-wallpaper-cover.jpg"
             alt="">
 
-        <button class="btn btn-outline-light">
+        <button class="btn btn-outline-light" data-toggle="modal" data-target="#mymodal">
             <span class="fas fa-venus"></span>
-             am a female
+             more?
 
         </button>
+
+
+
+
     </div>
 
-    <div class="container bg-success text-light text-center">
-            <p> My name is Mofiyin. I am 12 years old and
-                 I live in the Netherlands and I like coding, manga, games, food and basketball
+    <div id="mymodal" class="modal fade">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>More?</h1>
+                
+                    <button type="button" class="close" data-dismiss="modal"> X </button>
+
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="https://chubbiesbyash.com/wp-content/uploads/2024/12/photo_2024-12-23_12-33-33.jpg" alt="" width="100%">
+                        </div>
+
+                        <div class="col-sm-7">
+                            <b>I crochet a lot and its really easy to learn at first 
+                                but then gets harder. And I make different stuff to sell
+                                on Kings Day in Netherlands.
+                            </b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button data-dismiss="modal">nice!</button>
+                </div>
+            </div> 
+        </div>
+        
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container text-light text-center">
+            <b> My name is Mofiyin. I am 12 years old  born on 15 Jan 2014 and
+                 I live in the Netherlands and I like coding, manga, games, food and basketball.
+                 I crochet a lot and its really easy to learn at first 
+                                but then gets harder. And I make different stuff to sell
+                                on Kings Day in Netherlands.
+                                My favorite food is noodles or sushi.
+
+                                I realy like places in east asia like Japan or China.
+                                Ialso want to live in Japan
+                 
+
 
             
-            </p>
+            </b>
 
-        <button class="btn btn-outline-light">
-            <span class="fas fa-skull-crossbones"></span>
 
-        </button>
+        <br>
+        <br>
+        <br>
+        <br>
 
-        <div class="container">
+         <div id="mymodal3" class="modal fade">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="text-dark">One piece?</h1>
+                
+                    <button type="button" class="close" data-dismiss="modal"> X </button>
+
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="https://www.slashfilm.com/img/gallery/one-piece-roronoa-zoros-family-tree-explained/l-intro-1744079757.jpg" alt="" width="100%">
+                        </div>
+
+                        <div class="col-sm-7">
+                            <p>place holder
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button data-dismiss="modal">cooool!!</button>
+                </div>
+            </div> 
+        </div>
+        
+    </div>
+
+        <!-- <div class="container">
          <div class="column">
            <img id="img1" src="https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="">
-        </div>
+        </div> -->
     </div>
 
     </div>
 
-    <div class="row1">
-        <div class="col-sm-3">
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1 class="text-light">Favorite Food</h1>
+
+
+
+    <div id="fooddiv" class="row">
+        <div class="col-sm-3 text-light">
             <p>Noodles is one of my favorite foods. 
                 Its really tasty and is really easy too make 
                 plus there are all types of noodles.
             </p>
 
-            <img src="https://img.freepik.com/premium-photo/rabokki-ramen-korean-instant-noodle-tteokbokki-spicy-korean-sauce-korean-food-style_1339-165739.jpg?semt=ais_incoming&w=740&q=80" alt="" width="100%" >
+            <img src="https://img.freepik.com/premium-photo/rabokki-ramen-korean-instant-noodle-tteokbokki-spicy-korean-sauce-korean-food-style_1339-165739.jpg?semt=ais_incoming&w=740&q=80" alt="" width="100%" height="270" >
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-3 text-light">
+            <p>Noodles is one of my favorite foods. 
+                Its really tasty and is really easy too make 
+                plus there are all types of noodles.</p>
+
+            <img src="https://tokyo.nl/wp-content/uploads/nigiri-uramaki-sushi.jpg" alt="" width="100%" height="270">
+        </div>
+
+        <div class="col-sm-3 text-light">
+            <p>Noodles is one of my favorite foods. 
+                Its really tasty and is really easy too make 
+                plus there are all types of noodles.<p>
+
+            <img src="https://assets.epicurious.com/photos/642aebf9a2cf918d8b679f65/16:9/w_6815,h_3833,c_limit/PastaPomodoro_RECIPE_033023_50036.jpg" alt="" width="100%" height="270">
+
+        </div>
+
+        <div class="col-sm-3 text-light">
+            <p>Noodles is one of my favorite foods. 
+                Its really tasty and is really easy too make 
+                plus there are all types of noodles.</p>
+
+            <img src="https://www.galbani.be/wp-content/uploads/2020/06/shutterstock_142426168-scaled-1-800x600.jpg" alt="" width="100%" height="270">
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1 id="#sketching" class="text-light">Sketching</h1>
+
+        <div id="sketchdiv" class="row">
+        <div class="col-sm-4 text-light">
+            <p>
+            </p>
+
+            <img src="https://i.ytimg.com/vi/QkItlD_9m2A/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBBPolqq2LMByWHdL1edD9dMlHO-A" alt="" width="100%" height="270" >
+        </div>
+
+        <div class="col-sm-4 text-light">
             <p></p>
 
-            <img src="" alt="">
+            <img src="https://i.ytimg.com/vi/QkItlD_9m2A/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBBPolqq2LMByWHdL1edD9dMlHO-A" alt="" width="100%" height="270">
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-4 text-light">
+            <p><p>
+
+            <img src="https://i.ytimg.com/vi/QkItlD_9m2A/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBBPolqq2LMByWHdL1edD9dMlHO-A" alt="" width="100%" height="270">
 
         </div>
 
-        <div class="col-sm-3">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-        </div>
+        
 
+
+    
+        
 </body>
 
 </html>
+
