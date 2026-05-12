@@ -20,6 +20,10 @@ body{
   --animate-duration: 4s;
 }
 
+.text-light.animate__animated.animate__bounce {
+   --animate-duration: 2.5s;
+}
+
 /* .row {
   border-radius: 10px;
 } */
